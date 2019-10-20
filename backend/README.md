@@ -1,8 +1,34 @@
+##Getting started
 
-Hi wellcome to merncms repo server side system
+To get the Node server running locally:
 
-20/10/19
-server side system
+##Clone this repo
+
+npm install to install all required dependencies
+
+##Install MongoDB Atlas Community Edition
+Install MongoDB Atlas (instructions) and run it by executing mongod
+
+npm run dev to start the local server
+
+
+##Code Overview
+
+##Dependencies
+expressjs - The server for handling and routing HTTP requests
+
+body-parser - body parsing middleware.
+
+mongoose - For modeling and mapping MongoDB data to javascript
+
+mongoose-unique-validator - For handling unique validation errors in Mongoose. Mongoose only handles validation at the document level, so a unique index across a collection will throw an exception at the driver level. The mongoose-unique-validator plugin helps us by formatting the error like a normal mongoose ValidationError.
+
+bcrypt-library on NPM makes it really easy to hash and compare passwords
+
+jsonwebtoken-JWT authentication solution using nodejs
+
+Multer-a node.js middleware for handling multipart/form-data , which is primarily used for uploading files
 
 
 Alejandro.
+
