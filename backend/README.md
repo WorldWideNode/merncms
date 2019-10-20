@@ -12,7 +12,7 @@ Install MongoDB Community Edition (instructions) and run it by executing mongod
 npm run dev to start the local server
 
 
-##Code Overview\
+##Code Overview
 
 ##Dependencies
 expressjs - The server for handling and routing HTTP requests
