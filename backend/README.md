@@ -1,8 +1,22 @@
+Getting started
+To get the Node server running locally:
 
-Hi wellcome to merncms repo server side system
+Clone this repo
+npm install to install all required dependencies
 
-20/10/19
-server side system
+Install MongoDB Community Edition (instructions) and run it by executing mongod
+npm run dev to start the local server
+Alternately, to quickly try out this repo in the cloud, you can Remix on Glitch
+
+Code Overview
+Dependencies
+expressjs - The server for handling and routing HTTP requests
+body-parser - body parsing middleware.
+mongoose - For modeling and mapping MongoDB data to javascript
+mongoose-unique-validator - For handling unique validation errors in Mongoose. Mongoose only handles validation at the document level, so a unique index across a collection will throw an exception at the driver level. The mongoose-unique-validator plugin helps us by formatting the error like a normal mongoose ValidationError.
+bcrypt-library on NPM makes it really easy to hash and compare passwords
+jsonwebtoken-JWT authentication solution using nodejs
+Multer is a node.js middleware for handling multipart/form-data , which is primarily used for uploading files
 
 
 Alejandro.
