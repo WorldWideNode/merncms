@@ -6,8 +6,8 @@ To get the Node server running locally:
 
 npm install to install all required dependencies
 
-##Install MongoDB Community Edition
-Install MongoDB Community Edition (instructions) and run it by executing mongod
+##Install MongoDB Atlas Community Edition
+Install MongoDB Atlas (instructions) and run it by executing mongod
 
 npm run dev to start the local server
 
